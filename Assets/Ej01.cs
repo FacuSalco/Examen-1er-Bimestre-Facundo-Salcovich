@@ -103,6 +103,11 @@ public class Ej01 : MonoBehaviour
 
                 Debug.Log("Monto total sin descuento: " + total + ", El descuento de 20% te restan unos $" + (desc1 + desc2 + desc3) + ", El total con descuento aplicado es de $" + (total - desc1 - desc2 - desc3));
             }
+
+            else
+            {
+                Debug.Log("Monto total sin descuento: " + total + ", El descuento de 20% te restan unos $0 , El total con descuento aplicado es de $" + total);
+            }
         }
     }
 
